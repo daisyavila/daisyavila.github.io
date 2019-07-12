@@ -1,0 +1,22 @@
+.nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  display: flex;
+}
+.nav a{
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav a.active{
+  background-color: #ffe0fc;
+  color: white;
+}
+nav a:hover{
+  background-color: lightblue;
+}

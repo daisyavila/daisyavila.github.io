@@ -1,0 +1,42 @@
+.nav{
+  list-style-type: square;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  display: flex;
+}
+.nav a{
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: white;
+  flex: 1;
+}
+nav a.active{
+  background-color: white;
+  color: silver;
+}
+nav a:hover{
+  background-color: lightblue;
+}
+h4 {
+  color: red;
+}
+.food {
+  text-align: center;
+}
+body{
+  text-align: center;
+}
+#know {
+  color: black;
+}
+h1{
+  color: #8E9EF1;
+}
+h3{
+  color: #8E9EF1;
+}

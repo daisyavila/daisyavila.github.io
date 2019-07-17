@@ -34,9 +34,27 @@ body{
 #know {
   color: black;
 }
-h1{
+.chicken {
   color: #8E9EF1;
 }
 h3{
   color: #8E9EF1;
+}
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+.reg > img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+}
+.photos > .reg {
+  flex: 1 1 150px;
+}
+.contact {
+  font-size: 250px
+  color: lightblue;
 }
